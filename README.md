@@ -9,6 +9,7 @@
 6. Pointer de nouveau la caméra sur l'assemblage
 7. Suivre les étapes jusqu'à la fin de l'assemblage
 8. Possibiliter de recommencer la construction avec d'autres codes QR.
+*** Le lien du fichier .apk est disponible à l'adresse suivante: https://drive.google.com/open?id=1ABIXG0YCO3pK15jb3Tx4VmTs33VPpceu
 
 
 /////Construire l'application avec des modèles propres/////
