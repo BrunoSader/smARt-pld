@@ -13,6 +13,7 @@
 *** Le lien du fichier .apk est disponible à l'adresse suivante: https://drive.google.com/open?id=1ABIXG0YCO3pK15jb3Tx4VmTs33VPpceu
 
 
+
 /////Construire l'application avec des modèles propres/////
 1. Sur le site de vuforia, dans target manager, rajouter tous les QR dans une base de données nommée “smARt” sous forme d’Image. Une fois la base des données des QR faite, importer la dans unity. Attention les QR doivent être nommés d'après une nomenclature spécifique : “QRCode”+ObjName.
 2. Utiliser Vuforia Model Target Generator. Chaque étape doit suivre la nomenclature suivante : ObjName+”Step”+stepNum. Une étape correspond à l'assemblage partiel jusqu'à cet étape : AvionStep1 = Avion partie 1; AvionStep2 = Avion partie 1+2; AvionStep3 = Avion partie 1+2+3. Une fois chaque étape créée, créer une base de données du nom : ObjName+”Training” et entraîner la sur les étapes créées. Importer la base de données dans Unity cliquant dessus avec le projet Unity ouvert.
@@ -20,6 +21,7 @@
 4. Les objets 3d à importer sont de deux types : Obj et Build. La différence est dans le nom des objets.
     - Obj : Les objets de nom obj sont les objets a ajouter à une étape donnée. L’objet à ajouter à l'étape n est donc ObjName+”Obj”+stepnum. Ex: AvionObj3.
     - Build: Objets utilisés pour l’occlusion à l'étape n, c’est donc l’objet actuel de l'étape n : ObjName+”Build”+stepnum. Ex: AvionBuild3.
+  
   
   
 /////Tester dans le viewfinder Unity/////
