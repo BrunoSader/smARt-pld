@@ -10,6 +10,7 @@
      8. Possibilité de recommencer la construction avec d'autres codes QR.
 
      *** Le lien du projet unity : https://developer.cloud.unity3d.com/collab/orgs/300381/projects/3ff49d0a-9db5-420a-9041-e952f859e371/assets/ (afin d'y acceder il faut creer un compte et demander a un membre de l'hexanome h4244 de vous ajouter a l'organisation)
+     
      *** Le lien du fichier .apk est disponible à l'adresse suivante: https://drive.google.com/open?id=1ABIXG0YCO3pK15jb3Tx4VmTs33VPpceu
 
      ## Construire l'application avec des modèles propres
