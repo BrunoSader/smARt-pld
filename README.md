@@ -9,6 +9,7 @@
      7. Suivre les étapes jusqu'à la fin de l'assemblage
      8. Possibilité de recommencer la construction avec d'autres codes QR.
 
+     *** Le lien du projet unity : https://developer.cloud.unity3d.com/collab/orgs/300381/projects/3ff49d0a-9db5-420a-9041-e952f859e371/assets/ (afin d'y acceder il faut creer un compte et demander a un membre de l'hexanome h4244 de vous ajouter a l'organisation)
      *** Le lien du fichier .apk est disponible à l'adresse suivante: https://drive.google.com/open?id=1ABIXG0YCO3pK15jb3Tx4VmTs33VPpceu
 
      ## Construire l'application avec des modèles propres
@@ -43,3 +44,5 @@
      2. Tester l'application :
         - Pour tester directement avec un portable android depuis Unity: brancher le portable à l'ordinateur avec un cable USB et activer "USB debugging mode" sur le portable. Aller dans File->Build and run. Utiliser l'application en mode normal sur téléphone.
         - Pour tester depuis le téléphone en tant qu'application en dehors d'Unity: aller dans File->Build Settings->Build. Sélectionner l'emplacement souhaité sur le disque. Télécharger l'application sur votre portable par le moyen souhaité. Installer le .apk sur votre portable. Lancer l'application mobile.
+        
+        NB : le dossier Assets est le dossier qui contient les scripts et les scenes de notre projet. Sur ce git, par contre, il n'est pas complet, car il manque les objets 3d et les modeles targets (trop lourd pour le git).
